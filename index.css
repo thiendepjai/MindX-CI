@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.menu>span {
+    display: inline-block;
+    width: 100px;
+    height: auto;
+    background-color: chocolate;
+    font-size: 30px;
+    cursor: pointer;
+    line-height: 30px;
+}
+
+span:hover {
+    background-color: lawngreen;
+}
+
+.menu-vertical span {
+    display: grid;
+}
